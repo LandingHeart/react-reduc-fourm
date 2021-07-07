@@ -1,0 +1,22 @@
+.card-section {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 10px;
+    box-shadow: 1px 1px 3px 3px #ccc;
+    border-radius: 3px;
+    /* margin-left: 200px; */
+}
+
+.col {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
